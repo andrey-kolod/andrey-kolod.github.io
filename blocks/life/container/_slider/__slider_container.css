@@ -1,0 +1,27 @@
+.life__slider_container {
+  width: 56%;
+  max-width: 1000px;
+  height: clamp(280px, 50vw, 480px);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: pan-y;
+}
+
+@media screen and (max-width: 768px) {
+  .life__slider-container {
+    height: clamp(200px, 60vw, 350px);
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .life__slider-container {
+    height: clamp(180px, 70vw, 280px);
+  }
+
+
+}

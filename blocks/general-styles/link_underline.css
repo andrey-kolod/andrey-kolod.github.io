@@ -1,0 +1,20 @@
+.link_underline {
+  position: relative;
+  color: var(--white-color);
+  line-height: 1;
+  cursor: pointer;
+}
+.link_underline:after {
+  background-color: var(--white-color);
+  position: absolute;
+  bottom: -3px;
+  display: block;
+  content: "";
+  height: 1px;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+.link_underline:hover:after,
+.link_underline:focus:after {
+  width: 100%;
+}

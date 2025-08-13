@@ -1,0 +1,50 @@
+.background__item {
+  overflow: hidden;
+  background: var(--gold-yellow-color);
+  width: 60%;
+  margin: 15px auto;
+  border-radius: 10px;
+  transition: all 0.12s ease-in-out;
+  text-align: center;
+  opacity: 0;
+}
+
+[type="checkbox"] {
+  display: none;
+}
+
+.background__item_opened {
+  width: 90%;
+}
+
+.hovered {
+  opacity: 0.9;
+}
+
+.hoveredElement {
+  box-shadow: 0 0 8px 3px rgba(177, 176, 176, 0.33);
+}
+
+@media (max-width: 992px) {
+  .background__item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .background__item {
+    width: 60%;
+  } 
+}
+
+@media (max-width: 600px) {
+  .background__item {
+    width: 80%;
+  } 
+}
+
+@media (max-width: 480px) {
+  .background__item {
+    width: 90%;
+  } 
+}

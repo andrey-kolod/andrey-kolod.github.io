@@ -1,0 +1,38 @@
+.hero__title {
+  text-transform: uppercase;
+  font-size: 5.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+@media (max-width: 920px) {
+  .hero__title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__title {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 4% 0 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__title {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__title {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,7 @@
+.section_width {
+  max-width: 1366px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}

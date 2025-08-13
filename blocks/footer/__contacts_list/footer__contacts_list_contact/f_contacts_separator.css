@@ -1,0 +1,11 @@
+.f_contacts_separator {
+    height: 30px;
+    width: 1px;
+    background-color: var(--white-color);
+}
+
+@media (max-width: 360px) {
+    .f_contacts_separator {
+        display: none;
+    }
+}

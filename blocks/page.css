@@ -1,0 +1,25 @@
+:root {
+  --black-color: rgb(29, 29, 29);
+  --gold-yellow-color: rgb(253, 196, 1);
+  --white-color: white;
+  --svg-logo-color: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  color: var(--black-color);
+  font-family: "Vollkorn", serif;
+  font-size: 62.5%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  max-width: 2560px;
+  min-width: 320px;
+  min-height: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gold-yellow-color);
+}
+
+a {
+  color: var(--black-color);
+}

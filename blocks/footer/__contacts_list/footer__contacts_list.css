@@ -1,0 +1,16 @@
+.footer__contacts_list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+@media (max-width: 360px) {
+  .footer__contacts_list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

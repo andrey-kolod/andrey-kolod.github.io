@@ -1,0 +1,3 @@
+.fa-telegram::before {
+  content: url(./../../../../../images/icons/contact_telegram.svg);
+}

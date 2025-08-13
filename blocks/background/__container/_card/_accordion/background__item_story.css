@@ -1,0 +1,24 @@
+.background__item_story {
+  height: 0;
+  transform: scaleY(0);
+  transition: 0.3s;
+  margin: auto;
+  opacity: 0;
+  font-weight: 200;
+  font-size: 16px;
+  text-align: justify;
+  text-indent: 30px;
+  cursor: pointer;
+}
+
+input:checked ~ .background__item_story {
+  transform: scaleY(1);
+  height: auto;
+  opacity: 1;
+  padding: 0 25px 25px;
+}
+
+.background__item_story_link{
+  text-decoration:underline;
+  color: rgb(0, 0, 153);
+}

@@ -1,0 +1,181 @@
+.background__card.background__animation {
+  animation-name: background__card;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+}
+
+@keyframes background__card {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.background__card:nth-child(even).background__animation {
+  animation-name: background__card_nth_even;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+}
+
+@keyframes background__card_nth_even {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.background__icon.background__animation,
+.background__title.background__animation {
+  animation-name: background__icon_and_title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.7s;
+}
+
+@keyframes background__icon_and_title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.background__item.background__animation {
+  animation-name: background__icon_and_title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+
+@keyframes background__icon_and_title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.background__item:nth-child(2).background__animation {
+  animation-name: background__icon_and_title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.2s;
+}
+
+@keyframes background__icon_and_title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.background__item:nth-child(3).background__animation {
+  animation-name: background__icon_and_title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.4s;
+}
+
+@keyframes background__icon_and_title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.background__item:nth-child(4).background__animation {
+  animation-name: background__icon_and_title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.6s;
+}
+
+@keyframes background__icon_and_title {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.cv_link.background__animation {
+  animation-name: cv_link;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.8s;
+}
+
+@keyframes cv_link {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cv_link:nth-child(2).background__animation {
+  animation-name: cv_link;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.9s;
+}
+
+@keyframes cv_link {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.cv_link:nth-child(3).background__animation {
+  animation-name: cv_link;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+}
+
+@keyframes cv_link {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

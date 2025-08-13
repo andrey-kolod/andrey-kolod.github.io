@@ -1,0 +1,8 @@
+.project__links {
+  position: absolute;
+  top: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 20px;
+}

@@ -1,0 +1,4 @@
+.footer__contacts_wrapper {
+    display: flex;
+    gap: 10px;
+}

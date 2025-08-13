@@ -1,0 +1,42 @@
+.project_section__title.projects__animation,
+.project_section__title.projects__animation+.section__divider.projects__animation {
+  animation-name: project_section__title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+@keyframes project_section__title {
+  0% {
+    opacity: 0;
+    scale: 1.2;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.project__container.projects__animation {
+  animation-name: project__container;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+@keyframes project__container {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

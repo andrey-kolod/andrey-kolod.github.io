@@ -1,0 +1,7 @@
+.topbar__contacts_list_contact {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+  padding-top: 5px;
+}

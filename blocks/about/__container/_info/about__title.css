@@ -1,0 +1,30 @@
+.about__title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 10px 0 0;
+}
+
+@media (max-width: 920px) {
+  .about__title {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .about__title {
+      font-size: 26px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about__title {
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__title {
+      font-size: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+.topbar__language_link {
+  width: 24px;
+  height: auto;
+  transition: all 0.15s ease-in-out;
+  display: block;
+  cursor: pointer;
+}
+
+.topbar__language_link:hover {
+  filter: grayscale(0);
+  scale: 1.05;
+}
+
+.language_active,
+.language_active:hover {
+  filter: grayscale(90%);
+  scale: 0.80;
+  cursor: not-allowed;
+  /* pointer-events: none; */
+}

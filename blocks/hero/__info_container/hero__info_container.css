@@ -1,0 +1,9 @@
+.hero__info_container {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .hero__info_container {
+  width: 100%;
+  }
+}

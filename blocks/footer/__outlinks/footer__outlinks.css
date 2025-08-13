@@ -1,0 +1,22 @@
+.footer__outlinks {
+    color: white;
+    margin-left: 10px;
+}
+
+.footer__outlinks a {
+    color: var(--gold-yellow-color);
+}
+
+.footer__outlinks p {
+    display: block;
+}
+
+.footer__outlinks a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 580px) {
+    .footer__outlinks {
+        text-align: center;
+    }
+}

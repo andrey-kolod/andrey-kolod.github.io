@@ -1,0 +1,9 @@
+.background__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 8px 2px rgb(204 204 204 / 33%);
+  border-radius: 20px;
+  width: 100%;
+  opacity: 0;
+}

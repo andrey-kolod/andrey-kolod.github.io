@@ -1,0 +1,100 @@
+.hero__img {
+  opacity: 0;
+  animation-name: hero__img;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+}
+
+@keyframes hero__img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hero__title {
+  opacity: 0;
+  animation-name: hero__title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.7s;
+}
+
+@keyframes hero__title {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.hero__subtitle {
+  opacity: 0;
+  animation-name: hero__subtitle;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.2s;
+}
+
+@keyframes hero__subtitle {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.hero__subtitle_addition {
+  opacity: 0;
+  animation-name: hero__title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.7s;
+}
+
+@keyframes hero__subtitle_addition {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.hero__go-down_button {
+  opacity: 0;
+
+  animation-name: hero__go-down_button;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.9s;
+}
+
+@keyframes hero__go-down_button {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+    scale: 0.5;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+    scale: 1;
+  }
+}
