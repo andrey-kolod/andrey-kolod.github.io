@@ -1,0 +1,9 @@
+.project__link {
+  display: block;
+  height: 75%;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+  padding: 4px 15px 5px;
+  pointer-events: auto;
+}

@@ -1,0 +1,41 @@
+.skills_section__title.skills__animation,
+.skills_section__title.skills__animation+.section__divider.skills__animation {
+  opacity: 0;
+  animation-name: skills_section__title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.2s;
+}
+
+@keyframes skills_section__title {
+  0% {
+    opacity: 0;
+    scale: 1.2;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.skill.skills__animation {
+  animation-name: skill;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes skill {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

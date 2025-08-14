@@ -1,0 +1,10 @@
+.background__item_time-period {
+  display: block;
+  padding: 5px 5px;
+  margin: 0;
+  width: auto;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  cursor: pointer;
+}

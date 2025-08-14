@@ -1,0 +1,85 @@
+.life_section__title.life__animation,
+.life_section__title.life__animation+.section__divider.life__animation {
+    opacity: 0;
+    animation-name: life_section__title;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+}
+
+@keyframes life_section__title {
+    0% {
+        opacity: 0;
+        scale: 1.2;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.life__slider_container.life__animation,
+.life__slider_dots-container.life__animation {
+    animation-name: life__slider;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+@keyframes life__slider {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.life__slider_arrow-left.life__animation {
+    animation-name: life__slider_left-arrow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+@keyframes life__slider_left-arrow {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.life__slider_arrow-right.life__animation {
+    animation-name: life__slider_right-arrow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+@keyframes life__slider_right-arrow {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

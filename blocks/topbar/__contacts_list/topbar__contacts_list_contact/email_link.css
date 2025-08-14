@@ -1,0 +1,11 @@
+.email_link {
+  color: var(--black-color);
+}
+
+.email_link:hover {
+  text-decoration: underline;
+}
+
+.email_link:after {
+  background-color: var(--black-color);
+}

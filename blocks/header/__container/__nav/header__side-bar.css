@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+  .header__side-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5% 23% 100% 15px;
+    background-color: var(--gold-yellow-color);
+    transition: right 0.2s ease-in-out;
+    z-index: 20;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__side-bar.active {
+    right: 0;
+    z-index: 20;
+  }
+}

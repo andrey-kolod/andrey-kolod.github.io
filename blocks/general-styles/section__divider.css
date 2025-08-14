@@ -1,0 +1,18 @@
+.section__divider {
+  width: 5%;
+  margin-bottom: 50px;
+  border-bottom: 1.5px solid var(--white-color);
+}
+
+@media (max-width: 768px) {
+  .section__divider {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section__divider {
+    border-bottom: 3px solid var(--white-color);
+    margin-bottom: 10px;
+  }
+}

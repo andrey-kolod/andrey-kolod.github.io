@@ -1,0 +1,5 @@
+.contact_email::before {
+  content: url(/images/icons/f-mail.png);
+  padding-right: 4px;
+  filter: var(--svg-logo-color);
+}

@@ -1,0 +1,3 @@
+.fa-whatsapp::before {
+  content: url(./../../../../images/icons/contact_whatsapp.svg);
+}

@@ -1,0 +1,136 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/vollkorn.css);
+
+@import url(../blocks/page.css);
+/* GENERAL STYLES */
+@import url(../blocks/general-styles/scale.css);
+@import url(../blocks/general-styles/opacity.css);
+@import url(../blocks/general-styles/link_underline.css);
+@import url(../blocks/general-styles/section_width.css);
+@import url(../blocks/general-styles/overlay.css);
+@import url(../blocks/general-styles/text-color.css);
+@import url(../blocks/general-styles/section__divider.css);
+@import url(../blocks/general-styles/main.css);
+@import url(../blocks/general-styles/text_link.css);
+@import url(../blocks/general-styles/text_strong.css);
+@import url(../blocks/general-styles/to-lowercase_text.css);
+/* TOPBAR */
+@import url(../blocks/topbar/topbar.css);
+@import url(../blocks/topbar/__language_links/topbar__language_links.css);
+@import url(../blocks/topbar/__language_links/topbar__language_link.css);
+@import url(../blocks/topbar/__contacts_list/topbar__contacts_list.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/topbar__contacts_list_contact.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/contact_email.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/email_link.css);
+@import url(../blocks/topbar/__contacts_list/topbar__contacts_list_contact/contact_phone.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/contacts_separator.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/fa-whatsapp.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/fa-telegram.css);
+@import url(../blocks/topbar//__contacts_list/topbar__contacts_list_contact/fa-instagram.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__container/__logo/header__logo_text.css);
+@import url(../blocks/header/__container/__nav/header__nav_list.css);
+@import url(../blocks/header/__container/__nav/header__nav_link.css);
+@import url(../blocks/header/__container/__burger/header__burger.css);
+@import url(../blocks/header/__container/__nav/header__side-bar.css);
+@import url(../blocks/header/__container/__nav/header__nav_list_close-button.css);
+
+/* HERO */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/hero__container.css);
+@import url(../blocks/hero/__info_container/hero__info_container.css);
+@import url(../blocks/hero/__info_container/hero__title.css);
+@import url(../blocks/hero/__info_container/hero__subtitle.css);
+@import url(../blocks/hero/__info_container/hero__subtitle_addition.css);
+@import url(../blocks/hero/__info_container/hero__go-down_button.css);
+@import url(../blocks/hero/__img_container/hero__img_container.css);
+@import url(../blocks/hero/__img_container/hero__img.css);
+@import url(../blocks/hero/hero__animation.css);
+
+/* ABOUT */
+@import url(../blocks/about/about__animation.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__container/_info/about__info_wrapper.css);
+@import url(../blocks/about/__container/_info/about__title.css);
+@import url(../blocks/about/__container/_info/about__story.css);
+
+/* BACKGROUND */
+@import url(../blocks/background/__container/background__container.css);
+@import url(../blocks/background/__container/background__wrapper.css);
+@import url(../blocks/background/__container/_card/background__card.css);
+@import url(../blocks/background/__container/_card/background__icon.css);
+@import url(../blocks/background/__container/_card/background__title.css);
+@import url(../blocks/background/__container/_card/_accordion/background__item.css);
+@import url(../blocks/background/__container/_card/_accordion/background__item_title.css);
+@import url(../blocks/background/__container/_card/_accordion/background__item_establishment.css);
+@import url(../blocks/background/__container/_card/_accordion/background__item_time-period.css);
+@import url(../blocks/background/__container/_card/_accordion/background__item_story.css);
+@import url(../blocks/background/__container/_card/_accordion/background__item_open_arrow.css);
+@import url(../blocks/background/__container/_cv/cv_links_container.css);
+@import url(../blocks/background/__container/_cv/cv_link.css);
+@import url(../blocks/background/background_animation.css);
+
+/* SKILLS */
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/__container/skills_section__container.css);
+@import url(../blocks/skills/__container/skills_section__title.css);
+@import url(../blocks/skills/__container/skills__wrapper.css);
+@import url(../blocks/skills/__container/_skill/skill.css);
+@import url(../blocks/skills/__container/_skill/skill__icon.css);
+@import url(../blocks/skills/__container/_skill/skill__name.css);
+@import url(../blocks/skills/__container/_skill/skill__story_container.css);
+@import url(../blocks/skills/__container/skills__wrapper_open-button.css);
+@import url(../blocks/skills/skills__animation.css);
+
+/* PROJECTS */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/projects__animation.css);
+@import url(../blocks/projects/__container/projects_section__container.css);
+@import url(../blocks/projects/__container/project_section__title.css);
+@import url(../blocks/projects/__container/projects__wrapper.css);
+@import url(../blocks/projects/__container/_project/project_container.css);
+@import url(../blocks/projects/__container/_project/_card/project__card.css);
+@import url(../blocks/projects/__container/_project/_card/_front/project__card_front.css);
+@import url(../blocks/projects/__container/_project/_card/_front/project__card_front_cover.css);
+@import url(../blocks/projects/__container/_project/_card/_front/project__card_title.css);
+@import url(../blocks/projects/__container/_project/_card/_back/project__card_back.css);
+@import url(../blocks/projects/__container/_project/_card/_back/project__story.css);
+@import url(../blocks/projects/__container/_project/_card/_back/project__links.css);
+@import url(../blocks/projects/__container/_project/_card/_back/project__link_container.css);
+@import url(../blocks/projects/__container/_project/_card/_back/project__link.css);
+
+/* LIFE */
+@import url(../blocks/life/life.css);
+@import url(../blocks/life/life_animation.css);
+@import url(../blocks/life/container/life_section__title.css);
+@import url(../blocks/life/container/life_section__container.css);
+@import url(../blocks/life/container/life__wrapper.css);
+@import url(../blocks/life/container/_slider/__slider_container.css);
+@import url(../blocks/life/container/_slider/__slides.css);
+@import url(../blocks/life/container/_slider/__arrows.css);
+@import url(../blocks/life/container/_dots/_dots-container.css);
+@import url(../blocks/life/container/_dots/_dots.css);
+
+/* MODAL */
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/modal/_title.css);
+@import url(../blocks/modal/_img.css);
+@import url(../blocks/modal/_story.css);
+@import url(../blocks/modal/_close_button.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer__animation.css);
+@import url(../blocks/footer/__outlinks/footer__outlinks.css);
+@import url(../blocks/footer/footer__container.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/footer__contacts_wrapper.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/footer__socials_wrapper.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/footer__contacts_list_contact.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/f_contacts_separator.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/f-whatsapp.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/f-telegram.css);
+@import url(../blocks/footer/__contacts_list/footer__contacts_list_contact/f-instagram.css);

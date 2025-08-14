@@ -1,0 +1,57 @@
+.skills__wrapper_open-button {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .skills__wrapper_open-button {
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    background: linear-gradient(270deg, #ffc901, #f0a703);
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.skills__wrapper_open-button:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.75);
+  transform: scale(1.05);
+  background: linear-gradient(270deg, #ffc801a6, #f0a903a6);
+  color: aliceblue;
+}
+
+.skills__wrapper_open-button:active {
+  transform: scale(0.95);
+}
+
+.skills__wrapper_open-button:before {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 20px;
+  background: #ffffff;
+  top: -15px;
+  transform: rotate(37deg);
+  transition: all 0.3s;
+  opacity: 0.3;
+  animation: 0.5s twinkle ease-in 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes twinkle {
+  0% {
+    left: -40px;
+  }
+  100% {
+    left: 115%;
+  }
+}

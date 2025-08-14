@@ -1,0 +1,17 @@
+.header__nav_link {
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.section_active:after {
+  background-color: var(--white-color);
+  position: absolute;
+  bottom: -2px;
+  display: block;
+  content: "";
+  height: 1px;
+  width: 100%;
+  transition: width 0.3s ease-in-out;
+}

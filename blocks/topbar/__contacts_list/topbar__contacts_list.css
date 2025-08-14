@@ -1,0 +1,8 @@
+.topbar__contacts_list {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  gap: 15px;
+  margin-right: 50px;
+  padding: 5px 0;
+}

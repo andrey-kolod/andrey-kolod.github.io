@@ -1,0 +1,25 @@
+.cv_link {
+  background: linear-gradient(270deg, #ffc901, #f0a703);
+  border-radius: 20px;
+  padding: 5px 20px 5px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.cv_link:hover {
+  scale: 1.05;
+  opacity: 0.9;
+  box-shadow: 0 0 8px 2px rgb(204 204 204 / 33%);
+}
+
+.cv_link:active {
+  scale: 0.95;
+}
+
+@media (max-width: 576px) {
+  .cv_link {
+    text-align: center;
+    padding: 7px 15px 5px;
+    font-size: 14px;
+  }
+}

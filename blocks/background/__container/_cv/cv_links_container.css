@@ -1,0 +1,22 @@
+.cv_links_container {
+  display: flex;
+  gap: 3.0rem;
+  margin: 0 auto 7.0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .cv_links_container {
+    flex-direction: column;
+    gap: 2.5rem;
+  } 
+}
+
+@media (max-width: 480px) {
+  .cv_links_container {
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 50px;
+  } 
+}

@@ -1,0 +1,23 @@
+.life__slider_dots-container {
+    display: flex;
+    justify-content: center;
+    gap: clamp(8px, 1.5vw, 12px);
+    margin-top: 16px;
+    position: absolute;
+    top: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .life__slider_dots-container {
+      gap: clamp(6px, 1.2vw, 10px);
+      margin-top: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .life__slider_dots-container {
+      gap: 6px;
+      margin-top: 8px;
+    }
+  }
+  

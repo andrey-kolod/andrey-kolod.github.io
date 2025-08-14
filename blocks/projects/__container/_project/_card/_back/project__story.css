@@ -1,0 +1,7 @@
+.project__story {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-indent: 20px;
+  text-align: justify;
+  color: var(--white-color);
+}

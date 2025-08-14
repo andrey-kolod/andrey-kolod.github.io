@@ -1,0 +1,31 @@
+.hero__go-down_button {
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: var(--black-color);
+  background-color: var(--white-color);
+  border-radius: 50px;
+  letter-spacing: 1px;
+  padding: 4px 16px 3px;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hero__go-down_button:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .hero__go-down_button {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__subtitle_addition {
+    font-size: 1.5rem;
+  }
+}

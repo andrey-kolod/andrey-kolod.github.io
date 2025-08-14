@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.3aaa8927.woff2") format("woff2"), url("Inter-Regular.c9bd4130.woff") format("woff");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Inter-Bold.f85a21fb.woff2") format("woff2"), url("Inter-Bold.7ce09ac1.woff") format("woff");
+}
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Inter-Black.c7ad6fe9.woff2") format("woff2"), url("Inter-Black.4e1f1199.woff") format("woff");
+}
+/*# sourceMappingURL=inter.094ccb34.css.map */

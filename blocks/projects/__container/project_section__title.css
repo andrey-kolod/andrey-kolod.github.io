@@ -1,0 +1,13 @@
+.project_section__title {
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--black-color);
+  opacity: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.project__divider {
+  border-bottom: 1.5px solid var(--black-color);
+}

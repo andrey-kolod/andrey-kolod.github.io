@@ -1,0 +1,17 @@
+.project__card_front_cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+.ak-qa_cover {
+  margin-left: 15px;
+}
+
+.mesto_cover {
+  margin-left: 2px;
+}

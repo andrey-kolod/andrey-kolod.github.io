@@ -1,0 +1,10 @@
+.modal_story {
+      font-size: 1.4rem;
+      margin: 15px 30px;
+}
+
+@media (max-width: 768px) {
+      .modal_story {
+            font-size: 1.6rem;
+      }
+}

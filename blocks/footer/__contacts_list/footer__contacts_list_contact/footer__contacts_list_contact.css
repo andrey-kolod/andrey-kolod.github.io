@@ -1,0 +1,11 @@
+.footer__contacts_list_contact {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+  color: var(--white-color);
+}
+
+.footer__contacts_list_contact a {
+  color: var(--white-color);
+}

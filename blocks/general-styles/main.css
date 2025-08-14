@@ -1,0 +1,30 @@
+.main {
+    background-image:
+        linear-gradient(to right,
+            white 0%,
+            rgb(255, 255, 255, 1) 50%,
+            rgb(255, 255, 255, 0.85) 90%,
+            rgba(255, 255, 255, 0.8) 100%),
+        url(./../../images/back_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: auto 130%;
+    background-attachment: fixed;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .main {
+        background-position: center;
+        background-image:
+            linear-gradient(to right,
+                white 0%,
+                rgb(255, 255, 255, 0.98) 00%,
+                rgba(255, 255, 255, 0.8) 100%),
+            url(./../../images/back_image.jpg);
+    }
+
+}

@@ -1,0 +1,32 @@
+.hero__subtitle_addition {
+  margin-top: 8px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+  .hero__subtitle_addition {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero__subtitle_addition {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__subtitle_addition {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__subtitle_addition {
+    font-size: 1.8rem;
+  }
+}
