@@ -1260,12 +1260,12 @@ var _indexJs = require("../index.js");
 var _translationsJs = require("./translations.js");
 async function carousel() {
     const images = [
-        '/bike.jpg',
-        '/football.jpg',
-        '/guitar.jpg',
-        '/office.jpg',
-        '/sup.jpg',
-        '/vata.jpg'
+        '/dist/bike.jpg',
+        '/dist/football.jpg',
+        '/dist/guitar.jpg',
+        '/dist/office.jpg',
+        '/dist/sup.jpg',
+        '/dist/vata.jpg'
     ];
     let currentIndex = 0;
     let touchStartX = 0;
