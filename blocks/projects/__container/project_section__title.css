@@ -5,7 +5,6 @@
   color: var(--black-color);
   opacity: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  z-index: 100;
 }
 
 .project__divider {
