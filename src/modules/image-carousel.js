@@ -10,12 +10,12 @@ import { translations } from "./translations.js";
 
 export async function carousel () {
     const images = [
-        '/images/life_pics/bike.jpg',
-        '/images/life_pics/football.jpg',
-        '/images/life_pics/guitar.jpg',
-        '/images/life_pics/office.jpg',
-        '/images/life_pics/sup.jpg',
-        '/images/life_pics/vata.jpg',
+        '/bike.jpg',
+        '/football.jpg',
+        '/guitar.jpg',
+        '/office.jpg',
+        '/sup.jpg',
+        '/vata.jpg',
       ];
 
       let currentIndex = 0;

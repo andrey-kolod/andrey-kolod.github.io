@@ -160,11 +160,11 @@
       });
     }
   }
-})({"deeJF":[function(require,module,exports,__globalThis) {
+})({"hYSXo":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 56531;
+var HMR_SERVER_PORT = 62094;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -1311,6 +1311,6 @@ async function setServerAvatar(link) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["deeJF","2Wtak"], "2Wtak", "parcelRequirebbb8", {})
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["hYSXo","2Wtak"], "2Wtak", "parcelRequirebbb8", {})
 
 //# sourceMappingURL=mesto_project.945ddfa4.js.map
