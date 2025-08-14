@@ -3,7 +3,7 @@
 }
 
 .contact_phone::before {
-  content: url(./../../../../images/icons/contact_phone.svg);
+  content: url(/images/icons/contact_phone.svg);
   padding-right: 2px;
   filter: var(--svg-logo-color);
 }

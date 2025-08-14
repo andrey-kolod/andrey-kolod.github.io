@@ -27,7 +27,7 @@ export function languageToogler() {
 
 function setLanguageButton(language, languageLinks) {
     languageLinks.innerHTML = `
-        <img class="topbar__language_link rus${language === 'ru' ? ' language_active' : ''}" src="/rus.1c5bca64.svg" alt="Трехцветный флаг России">
-        <img class="topbar__language_link eng${language === 'en' ? ' language_active' : ''}" src="/usa.1f03df1a.svg" alt="Звездно-полосатый флаг США">
+        <img class="topbar__language_link rus${language === 'ru' ? ' language_active' : ''}" src="/images/icons/rus.svg" alt="Трехцветный флаг России">
+        <img class="topbar__language_link eng${language === 'en' ? ' language_active' : ''}" src="/images/icons/usa.svg" alt="Звездно-полосатый флаг США">
     `;
 }
