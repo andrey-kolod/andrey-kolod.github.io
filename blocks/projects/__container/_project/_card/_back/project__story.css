@@ -5,3 +5,10 @@
   text-align: justify;
   color: var(--white-color);
 }
+
+@media (max-width: 480px) {
+  .project__story {
+    font-size: 11px;
+    padding: 8px 16px;
+  }
+}
