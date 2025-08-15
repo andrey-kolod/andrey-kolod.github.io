@@ -1,3 +1,4 @@
+// Определяем текущую секцию
 export function displayCurrentSection() {
   document.addEventListener("DOMContentLoaded", () => {
     const links = document.querySelectorAll('.header__nav_link');

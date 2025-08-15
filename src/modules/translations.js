@@ -243,8 +243,8 @@ export const translations = {
         "js": {
             "title": "Java Script",
             "story": {
-                "en": "Basic JS, Primise, Async/await.<br> I can write scripts, make requests to the server, manipulate the DOM",
-                "ru": "Базовый JS, Primise, Async/await.<br> Умею писать скрипты, делать запросы к серверу, манипулирвать DOM"
+                "en": "Basic JS, Primise, Async/await. I can write scripts, make requests to the server, manipulate the DOM",
+                "ru": "Базовый JS, Primise, Async/await. Умею писать скрипты, делать запросы к серверу, манипулирвать DOM"
             }
         },
         "css": {
