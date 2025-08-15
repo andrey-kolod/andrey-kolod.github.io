@@ -30,8 +30,13 @@ import { languageToogler } from "./modules/language-toogle.js";
 import { displayCurrentSection } from "./modules/current-section.js";
 import { setSkillsSectionSize } from "./modules/skills-section-size.js";
 import { getLocalLanguage, language as lang, chooseLanguage } from "./modules/set-language.js";
+import { loader } from "./modules/loader.js";
 
 // -------------------
+
+// Прелоадер
+console.log(0);
+loader();
 
 // --- ИНИЦИАЛИЗАЦИЯ ЯЗЫКА ---
 getLocalLanguage();

@@ -25,6 +25,7 @@ function setLanguage(language) {
     if (!language) return; // Проверка на null/undefined
     document.documentElement.lang = language;
     localStorage.setItem('language', language);
+    setloaderLanguauge(language);
     setTopbarLanguauge(language);
     setHeaderLanguauge(language);
     setHeroLanguauge(language);
@@ -260,6 +261,10 @@ function setFooterLanguauge(language) {
     document.querySelector('.tr_footer_icons-2').textContent = translations.footer.icons_2[language];
     document.querySelector('.tr_footer_icons_link-2').textContent = translations.footer.icons_link_1;
     document.querySelector('.tr_footer_icons_link-1').textContent = translations.footer.icons_link_2;
+}
+
+function setloaderLanguauge(language) {
+    document.querySelector('.tr_loader').innerHTML = replaceLinks(translations.loader.loading[language]);
 }
 
 export function chooseLanguage() {

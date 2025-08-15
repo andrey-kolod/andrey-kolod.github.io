@@ -11,6 +11,7 @@
     opacity: 0;
     transform: translateX(-50px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0px);
@@ -30,6 +31,7 @@
     opacity: 0;
     transform: translateX(50px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0px);
@@ -42,13 +44,14 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  animation-delay: 0.7s;
+  animation-delay: 0.3s;
 }
 
 @keyframes background__icon_and_title {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -66,6 +69,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -83,6 +87,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -100,6 +105,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -118,6 +124,7 @@
     opacity: 0;
     scale: 0;
   }
+
   100% {
     opacity: 1;
     scale: 1;
@@ -137,6 +144,7 @@
     opacity: 0;
     transform: translateY(50px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -156,11 +164,13 @@
     opacity: 0;
     transform: translateY(50px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 .cv_link:nth-child(3).background__animation {
   animation-name: cv_link;
   animation-duration: 1s;
@@ -174,6 +184,7 @@
     opacity: 0;
     transform: translateY(50px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);

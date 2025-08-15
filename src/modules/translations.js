@@ -530,5 +530,11 @@ export const translations = {
         },
         "icons_link_1": "flaticon.com",
         "icons_link_2": "pautina.io",
-    }
+    },
+    "loader": {
+        "loading": {
+            "en": "Loading...\nPlease wait a moment...",
+            "ru": "Загрузка\nПодждите чуть-чуть..."
+        }
+    },
 }

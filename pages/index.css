@@ -14,6 +14,7 @@
 @import url(../blocks/general-styles/text_link.css);
 @import url(../blocks/general-styles/text_strong.css);
 @import url(../blocks/general-styles/to-lowercase_text.css);
+@import url(../blocks/general-styles/loader.css);
 /* TOPBAR */
 @import url(../blocks/topbar/topbar.css);
 @import url(../blocks/topbar/__language_links/topbar__language_links.css);
