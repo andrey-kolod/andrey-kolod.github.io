@@ -1,10 +1,6 @@
-"use strict";
+'use strict';
 
-import {
-  animation,
-  backgroundBackState,
-  projectCardsStartState,
-} from "./modules/observer.js";
+import { animation, backgroundBackState, projectCardsStartState } from './modules/observer.js';
 import {
   burgerButton,
   sideNavCloseButton,
@@ -14,28 +10,27 @@ import {
   projects,
   life,
   footer,
-} from "./modules/constants.js";
-import { openNavBar, closeNavBar } from "./modules/nav-bar.js";
-import { resizeDescription } from "./modules/resize-accordion.js";
-import { backgroundItemState } from "./modules/background_item_state.js";
+} from './modules/constants.js';
+import { openNavBar, closeNavBar } from './modules/nav-bar.js';
+import { resizeDescription } from './modules/resize-accordion.js';
+import { backgroundItemState } from './modules/background_item_state.js';
 import {
   skillModalEventListener,
   closeModalClickOutside,
   closeModalPushEsc,
-} from "./modules/modal.js";
-import { turnCards } from "./modules/project-cards.js";
-import { anchorScroll } from "./modules/anchor-scroll.js";
-import { carousel } from "./modules/image-carousel.js";
-import { languageToogler } from "./modules/language-toogle.js";
-import { displayCurrentSection } from "./modules/current-section.js";
-import { setSkillsSectionSize } from "./modules/skills-section-size.js";
-import { getLocalLanguage, language as lang, chooseLanguage } from "./modules/set-language.js";
-import { loader } from "./modules/loader.js";
+} from './modules/modal.js';
+import { turnCards } from './modules/project-cards.js';
+import { anchorScroll } from './modules/anchor-scroll.js';
+import { carousel } from './modules/image-carousel.js';
+import { languageToogler } from './modules/language-toogle.js';
+import { displayCurrentSection } from './modules/current-section.js';
+import { setSkillsSectionSize } from './modules/skills-section-size.js';
+import { getLocalLanguage, language as lang, chooseLanguage } from './modules/set-language.js';
+import { loader } from './modules/loader.js';
 
 // -------------------
 
 // Прелоадер
-console.log(0);
 loader();
 
 // --- ИНИЦИАЛИЗАЦИЯ ЯЗЫКА ---
@@ -57,10 +52,10 @@ anchorScroll();
 
 // --- ОТКРЫТИЕ/ЗАКРЫТИЕ НАВИГАЦИОННОГО МЕНЮ ---
 // Открытие навигационного меню
-burgerButton.addEventListener("click", openNavBar);
+burgerButton.addEventListener('click', openNavBar);
 
 // Закрытие навигационного меню
-sideNavCloseButton.addEventListener("click", closeNavBar);
+sideNavCloseButton.addEventListener('click', closeNavBar);
 
 // --- АНИМАЦИЯ ПОЯВЛЕНИЯ ЭЛЕМЕНТОВ ---
 animation.observe(aboutInfoWrapper);
