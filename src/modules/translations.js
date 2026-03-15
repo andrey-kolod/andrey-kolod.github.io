@@ -63,8 +63,8 @@ export const translations = {
       ru: 'Немного обо мне',
     },
     subtitle: {
-      en: 'In 2022, I had the opportunity to train as a software testing specialist. I figured that free education is never a bad thing and could potentially benefit my career.\n With each module, I found myself increasingly captivated. Through the learning process, I realized it would be amazing to do what I love while earning a living.\n To gain experience, I started participating in pet projects while simultaneously exploring the world of web development.\n I landed an exciting job in quality assurance from the client’s side, but after some time, I realized I was craving more technical challenges.\n Currently, I work as a testing engineer at Simple One, where I’m advancing my skills in software development and quality assurance.\n I built this website using pure HTML, CSS, and JavaScript to share my knowledge of the web development stack and my testing expertise. \nOutside of work, I enjoy spending time with my family. I love camping trips in nature, cycling, paddleboarding, and running. I’m a fan of rock music and occasionally play computer games.',
-      ru: 'В 2022 году у меня появилась возможность обучиться специальности тестировщика ПО. Я подумал, бесплатное образование никогда не будет лишним и возможно пригодится в моей работе.\n С каждым модулем меня начало затягивать все сильнее и сильнее. В процессе обучения я понял, что было бы здорово заниматься любимым делом и при этом зарабатывать на жизнь.\n Для получения опыта я начал участвовть в пет-проектах и параллельно осваивать мир веб-разработки.\n Я нашел себе интересную работу в обеспечении качества продуктов со стороны заказчика, но через некоторое время я понял, что мне не хватает технических задач.\n Сейчас я работаю инженером по тестированию в компании Simple One и развиваюсь в сфере разработки и обеспечения качества ПО.\n Я создал этот сайт на чистом HTML, CSS и JS, чтобы поделиться своими знаниями стэка веб-разработки и навыками тестирования. \nВне работы я люблю проводить время со своей семьей. Обажаю вылазки на природу с палатками, велопрогулки, катание на сап-борде и бегать. Люблю рок музыку и иногда компьютерные игры.',
+      en: 'In 2022, I had the opportunity to train as a software testing specialist. I figured that free education is never a bad thing and could potentially benefit my career.\n With each module, I found myself increasingly captivated. During the process, I realized it would be amazing to do what I love for a living.\n To gain experience, I started participating in pet projects while exploring the world of web development.\n I landed an exciting QA role on the client side, but after some time, I realized I was craving more technical challenges.\n Currently, I work as a QA Engineer at SimpleOne, where I’m advancing my skills in software development, QA, and test automation with JS and Python.\n I built this website using pure HTML, CSS, and JavaScript to showcase my knowledge of the web development stack and my testing expertise.\n I am also working on a personal project where the main part is in Next.js, and the backend will be in Python. The system includes logging and monitoring features.\n Outside of work, I enjoy spending time with my family. I love camping trips, cycling, paddleboarding, and running. I’m a fan of rock music and occasionally play video games.',
+      ru: 'В 2022 году у меня появилась возможность обучиться специальности тестировщика ПО. Я подумал, что бесплатное образование никогда не будет лишним и, возможно, пригодится в карьере.\n С каждым модулем меня затягивало всё сильнее. В процессе обучения я понял: было бы здорово заниматься любимым делом и при этом зарабатывать на жизнь.\n Для получения опыта я начал участвовать в пет-проектах и параллельно осваивать мир веб-разработки.\n Я нашел интересную работу в сфере обеспечения качества на стороне заказчика, но через некоторое время понял, что мне не хватает сложных технических задач.\n Сейчас я работаю инженером по тестированию в компании SimpleOne и развиваюсь в области разработки, QA и автоматизации тестирования на JS и Python.\n Этот сайт создан на чистом HTML, CSS и JS.\n Работаю над собственным проектом, где основная часть на Next js, а далее бэк будет на Python. Система включает в себя систему логирования и мониторинга.\n Вне работы я провожу время с семьей. Обожаю вылазки на природу с палатками, велопрогулки, сап-борд и бег. Люблю рок-музыку и иногда компьютерные игры.',
     },
   },
   background: {
@@ -83,36 +83,34 @@ export const translations = {
           en: 'April 2025 - now',
           ru: 'Апрель 2025 - н.в.',
         },
-        story: {
+story: {
           en: {
-            text: 'Work on a unified digital environment for the HR department and employees [HRMS] and the IT process automation system [ITSM].\n\n**Tasks:**\n- Preparing test plans;\n- Reviewing specifications;\n- Preparing e2e test cases for automation;\n- Writing checklists;\n- Testing;\n- Reporting and tracking defect fixes;\n- Making software development better and cheaper)',
+            text: 'Quality assurance of a unified digital environment for the HR department and employees [HRMS].\n\n**Key responsibilities and achievements:**\n- Reviewing specifications at early stages to identify logical errors before development;\n- Developing and maintaining test plans, checklists, and E2E scenarios;\n- Analyzing and refactoring failed Playwright (JS) autotests;\n- Functional, regression, and integration testing, including API via Postman;\n- Managing the full defect lifecycle: from discovery to fix control and closure;\n- Performing primary review of E2E test cases within the team.',
             links: {
               HRMS: 'https://simpleone.ru/hrms',
-              ITSM: 'https://simpleone.ru/itsm',
             },
           },
           ru: {
-            text: 'Работа над единой цифровой средой для работы HR-департамента и сотрудников [HRMS] и системой автоматизации IT-процессов [ITSM].\n\n**Задачи:**\n- Подготовка тест-планов;\n- Ревью спецификаций;\n- Подготовка e2e тест-кейсов для автоматизации;\n- Написание чек-листов;\n- Тестирование;\n- Заведение и контроль исправления дефектов;\n- Делать разработку ПО качественней и дешевле)',
+            text: 'Обеспечение качества единой цифровой среды для работы HR-департамента и сотрудников [HRMS].\n\n**Ключевые обязанности и достижения:**\n- Провожу ревью спецификаций на ранних этапах, что позволяет выявить логические ошибки до начала разработки;\n- Разрабатываю и поддерживаю в актуальном состоянии тест-планы, чек-листы и Е2Е сценарии;\n- Провожу анализ и рефакторинг упавших в прогоне автотестов в Playwright (JS);\n- Провожу функциональное, регрессионное и интеграционное тестирование, включая API в Postman;\n- Осуществляю полный цикл управления дефектами: от обнаружения и локализации до контроля исправления и закрытия;\n- Провожу первичное ревью Е2Е тест-кейсов в своей команде.',
             links: {
               HRMS: 'https://simpleone.ru/hrms',
-              ITSM: 'https://simpleone.ru/itsm',
             },
           },
         },
       },
-      job_3: {
+    job_3: {
         title: {
           en: 'Software Implementation, Testing, and Support Specialist',
-          ru: 'Специалист по внедрению ПО, тестированию и поддержке',
+          ru: 'Специалист по внедрению, тестированию ПО и поддержке пользователей',
         },
         establishment: 'Setl Group',
         period: {
           en: 'January 2024 - April 2025',
-          ru: 'Январь 2024 - Апрель 2025',
+          ru: 'Январь 2024 — Апрель 2025',
         },
         story: {
           en: {
-            text: "Work with the website [LKK], integrated with the business process management platform [DocsVision] and the electronic trading platform [Praktis].\n\n**Responsibilities:**\n- Functional, integration, and exploratory testing from the client's side;\n- Maintaining test documentation;\n- Logging incidents and creating tasks for product improvements;\n- Gathering initial business requirements, describing and approving solutions for business process optimization and automation;\n- Participation in preparing functional requirements;\n- User support;\n- Collaboration with the development team and other stakeholders on development-related matters;\n- Keeping minutes of technical meetings.",
+            text: 'Web service [LKK], integrated with the [DocsVision] BPM system and [Praktis] electronic trading platform.\n\n**Responsibilities and achievements:**\n- Functional, regression, and exploratory testing of the web interface and integration links between LKK, DocsVision, and the trading platform;\n- Identifying, documenting, and tracking bug fixes. Collaborating with the dev team to prioritize tasks;\n- Developing and maintaining test documentation (checklists, test cases);\n- Gathering and analyzing primary requirements, participating in writing functional requirements;\n- Optimized business processes within the system, significantly reducing technical support requests;\n- E2E integration testing between systems;\n- Organizing and conducting acceptance testing (UAT) on the client side before production release;\n- Second-line user support.',
             links: {
               LKK: 'https://lkk.setlgroup.ru/',
               DocsVision: 'https://docsvision.com/',
@@ -120,9 +118,9 @@ export const translations = {
             },
           },
           ru: {
-            text: 'Работа с веб сайтом Личный кабинет контрагента [Личный кабинет контрагента], интегрированным с платформой для управления бизнес-процессами [DocsVision] и электронной торговой площадкой [Praktis].\n\n**Обязанности:**\n - функциональное, интеграционное и исследовательское тестирование со стороны заказчика;\n - ведение тестовой документации;\n - заведение инцидентов и постановка задач по улучшению продукта;\n - сбор первичных бизнес-требований, описание и согласование решений по оптимизации и автоматизации бизнес-процессов;\n - участие в подготовке функциональных требований;\n - поддержка пользователей;\n - взаимодействие с командой разработки и другими заинтересованными подразделениями по вопросам разработки;\n - ведение протоколов технических совещаний.',
+            text: 'Веб-сервис [ЛКК], интегрированный с BPM-системой [DocsVision] и ЭТП [Praktis].\n\n**Обязанности и достижения:**\n- Проведение функционального, регрессионного и исследовательского тестирования веб-интерфейса и интеграционных связей между ЛКК, DocsVision и торговой площадкой;\n- Выявление, документирование и контроль исправления багов. Взаимодействие с командой разработки для приоритизации задач;\n- Разработка и поддержка в актуальном состоянии тестовой документации (чек-листы, тест-кейсы);\n- Сбор и анализ первичных требований, участие в написании функциональных требований;\n- Оптимизировал бизнес-процессы внутри системы, что позволило значительно сократить количество обращений в техническую поддержку;\n- Тестирование E2E интеграции между системами;\n- Организация и проведение приемочных испытаний со стороны заказчика перед выводом функционала в продакшн;\n- Поддержка пользователей на второй линии поддержки.',
             links: {
-              'Личный кабинет контрагента': 'https://lkk.setlgroup.ru/',
+              ЛКК: 'https://lkk.setlgroup.ru/',
               DocsVision: 'https://docsvision.com/',
               Praktis: 'https://praktis.ru/',
             },
@@ -246,140 +244,140 @@ export const translations = {
       ru: 'Мои навыки',
     },
     js: {
-      title: 'Java Script',
+      title: 'JavaScript',
       story: {
-        en: 'Basic JS, Primise, Async/await. I can write scripts, make requests to the server, manipulate the DOM',
-        ru: 'Базовый JS, Primise, Async/await. Умею писать скрипты, делать запросы к серверу, манипулирвать DOM',
+        en: 'Basic JS, Promises, Async/await. I can write scripts, make server requests, and manipulate the DOM.',
+        ru: 'Базовый JS, Promises, Async/await. Умею писать скрипты, делать запросы к серверу, манипулировать DOM.',
       },
     },
     css: {
       title: 'CSS',
       story: {
-        en: 'General styles, positioning, animations, media queries, adaptive layout, grid, flex',
-        ru: 'Общие стили, позицианирование, анимации, медиа-запросы, адаптивная верстка, grid, flex',
+        en: 'General styles, positioning, animations, media queries, responsive layout, Grid, Flexbox.',
+        ru: 'Общие стили, позиционирование, анимации, медиа-запросы, адаптивная верстка, Grid, Flexbox.',
       },
     },
     html: {
       title: 'HTML',
       story: {
-        en: 'Structure of the site, semantics, creating forms',
-        ru: 'Структура сайта, семантика, создане форм',
+        en: 'Site structure, semantics, creating forms.',
+        ru: 'Структура сайта, семантика, создание форм.',
       },
     },
     api: {
       title: 'API',
       story: {
-        en: 'Testing API in Postman, writing checklists, creating collections, working with Swagger',
-        ru: 'Тестировние API в Postman, написание чек-листов, создание коллекций, работа со Swagger',
+        en: 'API testing in Postman, writing checklists, creating collections, working with Swagger.',
+        ru: 'Тестирование API в Postman, написание чек-листов, создание коллекций, работа со Swagger.',
       },
     },
     pw: {
       title: 'Playwright',
       story: {
-        en: 'Automation of E2E test cases. Using internal classes and methods of the employer. Initial level.',
+        en: 'Automation of E2E test cases using internal company classes and methods. Junior level.',
         ru: 'Автоматизация E2E тест-кейсов. Использование внутренних классов и методов компании работодателя. Начальный уровень.',
       },
     },
     linux: {
       title: {
-        en: 'Linux console',
+        en: 'Linux Console',
         ru: 'Консоль Linux',
       },
       story: {
-        en: 'Manipulating directories, working with files, grep',
-        ru: 'Манипуляции с директориями, работа с файлами, grep',
+        en: 'Directory manipulation, working with files, grep.',
+        ru: 'Манипуляции с директориями, работа с файлами, grep.',
       },
     },
     func_test: {
       title: {
-        en: 'Functional testing',
+        en: 'Functional Testing',
         ru: 'Функциональное тестирование',
       },
       story: {
-        en: 'Writing test documentation, Charles, Android Studio',
-        ru: 'Функциональное тестирование, написание тестовой-документации, Charles, Android Studio',
+        en: 'Writing test documentation, Charles Proxy, Android Studio.',
+        ru: 'Написание тестовой документации, Charles, Android Studio.',
       },
     },
     test_gui: {
       title: {
-        en: 'Testing GUI',
+        en: 'GUI Testing',
         ru: 'Тестирование GUI',
       },
       story: {
-        en: 'Testing GUI to Pixel Perfet in dependence of need, Charles, DevTools',
-        ru: 'Тестирование GUI до Pixel Perfet в зависимости от потребности, Charles, DevTools',
+        en: 'Testing GUI to Pixel Perfect depending on requirements, Charles Proxy, DevTools.',
+        ru: 'Тестирование GUI до Pixel Perfect в зависимости от потребности, Charles, DevTools.',
       },
     },
     git: {
-      title: 'Git Hub',
+      title: 'GitHub',
       story: {
-        en: 'Creating and working with repositories, commits, pull-requests, working with branches',
-        ru: 'Создание и работа с репозиториями, коммиты, pull-requests, работа с ветками',
+        en: 'Creating and working with repositories, commits, pull requests, and branching.',
+        ru: 'Создание и работа с репозиториями, коммиты, pull-requests, работа с ветками.',
       },
     },
     postman: {
       title: 'Postman',
       story: {
-        en: 'Requests to API, creating collections',
-        ru: 'Запросы к API, создание коллекций',
+        en: 'API requests, creating collections.',
+        ru: 'Запросы к API, создание коллекций.',
       },
     },
     charles: {
-      title: 'Charles',
+      title: 'Charles Proxy',
       story: {
-        en: 'Catching and replacing responses from the server',
-        ru: 'Перехват и подмена ответов от сервера',
+        en: 'Intercepting and mocking server responses.',
+        ru: 'Перехват и подмена ответов от сервера.',
       },
     },
     ttms: {
       title: {
-        en: 'Task and test management systems',
+        en: 'Task and Test Management Systems',
         ru: 'Системы управления задачами и тестами',
       },
       story: {
-        en: 'Worked in YouTrack, Kaiten, Trello, Qase.io, EvaTeam',
-        ru: 'Был опыт работы в YouTrack, Kaiten, Trello, Qase.io, EvaTeam',
+        en: 'Experience with YouTrack, Kaiten, Trello, Qase.io, EvaTeam.',
+        ru: 'Опыт работы в YouTrack, Kaiten, Trello, Qase.io, EvaTeam.',
       },
     },
     test_theory: {
       title: {
-        en: 'Testing theory',
+        en: 'Testing Theory',
         ru: 'Теория тестирования',
       },
       story: {
-        en: 'Understanding the basic principles of testing and software development, types of testing, test design techniques and other',
-        ru: 'Понимание основных принципов тестирования и разработки ПО, видов тестирования, техники тест-дизайна и прочее',
+        en: 'Understanding basic testing and development principles, testing types, test design techniques, etc.',
+        ru: 'Понимание основных принципов тестирования и разработки ПО, видов тестирования, техник тест-дизайна и прочего.',
       },
     },
     sql: {
       title: 'SQL',
       story: {
-        en: 'Requests to relational DB, data manipulation',
-        ru: 'Запросы к реляционным БД, манипуляции данными',
+        en: 'Queries to relational databases, data manipulation.',
+        ru: 'Запросы к реляционным БД, манипуляции данными.',
       },
     },
     figma: {
       title: 'Figma',
       story: {
-        en: 'Reading and composing simple layouts',
-        ru: 'Чтение и составление не сложных макетов',
+        en: 'Reading and creating simple layouts.',
+        ru: 'Чтение и составление несложных макетов.',
       },
     },
     dv: {
       title: 'DocsVision',
       story: {
-        en: 'Working with documents, testing individual modules',
-        ru: 'Работа с документами, тестирование отдельных модулей',
+        en: 'Working with documents, testing individual modules.',
+        ru: 'Работа с документами, тестирование отдельных модулей.',
       },
     },
     ai: {
       title: {
-        en: 'AI',
+        en: 'AI Tools',
         ru: 'ИИ',
       },
       story: {
-        en: 'Using Grok 3, DeepSeek, ChartGPT and Codeium in development and work.',
-        ru: 'Использование ИИ Grok 3, DeepSeek, ChartGPT и Codeium в разработке и работе.',
+        en: 'Using Grok 3, DeepSeek, ChatGPT, and Codeium in development and workflow.',
+        ru: 'Использование Grok 3, DeepSeek, ChatGPT и Codeium в разработке и работе.',
       },
     },
     eng: {
@@ -388,7 +386,7 @@ export const translations = {
         ru: 'Английский язык',
       },
       story: {
-        en: 'Conversation level. Approximately A2. Can communicate in everyday life.',
+        en: 'Conversational level (approx. A2). Can communicate in everyday situations.',
         ru: 'Разговорный уровень. Примерно А2. Могу общаться в повседневной жизни.',
       },
     },
