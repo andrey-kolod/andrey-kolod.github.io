@@ -220,14 +220,11 @@ ul {
   min-width: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-self: stretch;
+  justify-content: center;
   gap: 20px;
-  padding: 8px 0;
 }
 
 .hero__eyebrow {
-  margin-bottom: 12px;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -238,6 +235,7 @@ ul {
   font-family: var(--font-title);
   font-size: clamp(36px, 5vw, 52px);
   line-height: 1.05;
+  margin: 20px 0 12px;
 }
 
 .hero__lead {
@@ -808,13 +806,13 @@ body.dialog-open {
   .hero__inner {
     flex-direction: column;
     align-items: stretch;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    gap: 32px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    gap: 28px;
   }
 
   .hero__text {
-    padding: 0;
+    gap: 16px;
   }
 
   .hero__contacts,
@@ -868,8 +866,8 @@ body.dialog-open {
     text-align: center;
   }
 
-  .hero__eyebrow {
-    margin-bottom: 4px;
+  .hero__name {
+    margin: 4px 0 0;
   }
 
   .hero__eyebrow-part {
