@@ -224,7 +224,7 @@ ul {
 }
 
 .hero__eyebrow {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -232,13 +232,13 @@ ul {
 
 .hero__name {
   font-family: var(--font-title);
-  font-size: clamp(40px, 6vw, 64px);
+  font-size: clamp(36px, 5vw, 52px);
   line-height: 1.05;
 }
 
 .hero__lead {
-  font-size: 20px;
-  max-width: 600px;
+  font-size: 17px;
+  max-width: 560px;
 }
 
 .chips {
@@ -253,7 +253,7 @@ ul {
   background: rgba(255, 255, 255, 0.55);
   border-radius: 999px;
   padding: 4px 12px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .hero__actions {
@@ -267,9 +267,10 @@ ul {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 48px;
-  padding: 12px 22px;
+  min-height: 42px;
+  padding: 9px 18px;
   border-radius: 8px;
+  font-size: 15px;
   font-weight: 600;
   text-decoration: none;
   transition: transform 0.15s, box-shadow 0.15s;
@@ -297,9 +298,9 @@ ul {
 }
 
 .hero__photo {
-  flex: 0 0 340px;
-  width: 340px;
-  height: 420px;
+  flex: 0 0 420px;
+  width: 420px;
+  height: 520px;
   object-fit: cover;
   object-position: center top;
   border-radius: 16px;
@@ -410,8 +411,31 @@ ul {
   font-size: 15px;
 }
 
-.skills__more {
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tools__title {
+  font-size: 18px;
+}
+
+.tools__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tool {
+  background: var(--white);
+  border-radius: 999px;
+  padding: 6px 14px;
   font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 /* Артефакты: карточки-перевёртыши */
@@ -822,7 +846,7 @@ body.dialog-open {
   }
 
   .hero__lead {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .hero__actions {

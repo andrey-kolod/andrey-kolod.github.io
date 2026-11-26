@@ -67,8 +67,7 @@ export const en = {
     'Requirements review, test plans, checklists, test cases, test design techniques, acceptance testing',
   skill4_title: 'AI in testing',
   skill4_text: 'Claude Code: tests from specifications, feature coverage checks',
-  skills_more:
-    'Also: SQL and PostgreSQL · Git · GitLab CI · Docker · Linux shell · SimpleOne · DocsVision · YouTrack, Kaiten, Qase.io, EvaTeam',
+  tools_title: 'More tools',
 
   artifacts_title: 'Work samples',
   artifacts_hint: 'Hover over or tap a card to flip it.',
