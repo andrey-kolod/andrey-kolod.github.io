@@ -208,11 +208,11 @@ ul {
 }
 
 .hero__inner {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 40px;
 }
 
 .hero__text {
@@ -220,10 +220,14 @@ ul {
   min-width: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
   gap: 20px;
+  padding: 8px 0;
 }
 
 .hero__eyebrow {
+  margin-bottom: 12px;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -298,9 +302,9 @@ ul {
 }
 
 .hero__photo {
-  flex: 0 0 420px;
-  width: 420px;
-  height: 520px;
+  flex: 0 0 440px;
+  width: 440px;
+  height: 580px;
   object-fit: cover;
   object-position: center top;
   border-radius: 16px;
@@ -751,6 +755,14 @@ body.dialog-open {
   color: var(--gold);
 }
 
+@media (max-width: 1024px) {
+  .hero__photo {
+    flex-basis: 380px;
+    width: 380px;
+    height: 500px;
+  }
+}
+
 /* Планшет */
 
 @media (max-width: 768px) {
@@ -801,6 +813,73 @@ body.dialog-open {
     gap: 32px;
   }
 
+  .hero__text {
+    padding: 0;
+  }
+
+  .hero__contacts,
+  .footer__contacts {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .hero__contacts .dot,
+  .footer__contacts .dot,
+  .job__sep {
+    display: none;
+  }
+
+  .job__company {
+    display: block;
+  }
+
+  .job__head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .carousel__arrow {
+    display: none;
+  }
+
+  .carousel__viewport {
+    height: 440px;
+  }
+
+  .carousel__slide {
+    width: 78%;
+  }
+
+  .carousel__slide_left {
+    transform: translateX(-141%) scale(0.85);
+  }
+
+  .carousel__slide_right {
+    transform: translateX(41%) scale(0.85);
+  }
+
+  .carousel__dot {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hero__eyebrow,
+  .hero__name {
+    text-align: center;
+  }
+
+  .hero__eyebrow {
+    margin-bottom: 4px;
+  }
+
+  .hero__eyebrow-part {
+    display: block;
+  }
+
+  .hero__eyebrow-sep {
+    display: none;
+  }
+
   .hero__photo {
     flex: none;
     width: 100%;
@@ -829,7 +908,8 @@ body.dialog-open {
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .nav__list {
@@ -872,10 +952,6 @@ body.dialog-open {
   }
 
   .carousel__viewport {
-    height: 300px;
-  }
-
-  .carousel__slide {
-    width: 70%;
+    height: 420px;
   }
 }

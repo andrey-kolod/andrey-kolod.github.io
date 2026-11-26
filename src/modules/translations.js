@@ -24,7 +24,8 @@ export const en = {
   lang_button_label: 'Переключить на русский',
   menu_label: 'Menu',
 
-  hero_eyebrow: 'QA Engineer · manual and automated testing',
+  hero_eyebrow_role: 'QA Engineer',
+  hero_eyebrow_focus: 'manual and automated testing',
   hero_name: 'Andrey Kolodyazhnyy',
   hero_lead:
     'I test HRMS at SimpleOne and drive features from requirements to release: spec reviews, Playwright e2e tests, API testing in Bruno. Set up AI-agent-assisted test coverage for the team.',
@@ -34,7 +35,7 @@ export const en = {
   hero_photo_alt: 'Andrey Kolodyazhnyy',
 
   experience_title: 'Experience',
-  job1_title: 'QA Engineer · SimpleOne',
+  job1_role: 'QA Engineer',
   job1_period: 'April 2025 — present',
   job1_product: 'HRMS — a unified digital workspace for HR and employees.',
   job1_item1: 'Review specifications before development and catch logic errors before code is written',
@@ -47,7 +48,7 @@ export const en = {
   job1_item7: 'Handle defects from localization to closure',
   job1_item8:
     'Since October 2026, own features end to end with the product owner: specs, development with AI agents, testing including API security, demos at Sprint Review',
-  job2_title: 'Software Implementation & QA · SetlGroup',
+  job2_role: 'Software Implementation & QA',
   job2_period: 'January 2024 — April 2025',
   job2_product: 'Supplier portal integrated with DocsVision (BPM) and the Praktis e-trading platform.',
   job2_item1:
