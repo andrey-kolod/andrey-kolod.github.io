@@ -11,7 +11,7 @@ const user = {
 const cards = [
   {
     name: 'Новороссийск',
-    link: 'https://admnvrsk.ru/upload/resize_cache/iblock/387/865_497_2/9h9n3jbo8uh22enraxfd7xlvpr3d649z.jpg',
+    link: './images/novorossiysk.jpg',
     owner: { _id: '682c60609bc8f3ab2e4d6f7d' },
     likes: [{ name: 'Боря', about: 'Photographer', _id: '682c60609bc8f3ab2e4d6f7d' }
     ],
@@ -31,7 +31,7 @@ const cards = [
   },
   {
     name: 'Санкт-Петербург',
-    link: 'https://sokroma.ru/upload/resize_cache/webp/iblock/741/ce4j337r6oe7evt2xy87jtoixlrs0pdy.webp',
+    link: './images/spb.jpg',
     owner: { _id: '682c60609bc8f3ab2e4d6f7d' },
     likes: [{ name: 'Боря', about: 'Photographer', _id: '682c60609bc8f3ab2e4d6f7d' },
         { name: 'Филян', about: 'Фотограф', _id: '682c60609bc8f3ab2e4d6f7d' },
